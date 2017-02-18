@@ -19,7 +19,9 @@
     "doc": "docco lib/* example.js 2>/dev/null",
     "cov": "jscoverage lib lib-cov && EXPRESS_COV=1 NODE_PATH=lib-cov mocha -R html-cov > docs/coverage.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-native-udp": "^2.0.0"
+  },
   "devDependencies": {
     "docco": "~0.6.2",
     "jscoverage": "~0.3.6",
