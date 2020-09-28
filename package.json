@@ -20,7 +20,7 @@
     "cov": "jscoverage lib lib-cov && EXPRESS_COV=1 NODE_PATH=lib-cov mocha -R html-cov > docs/coverage.html"
   },
   "dependencies": {
-    "react-native-udp": "^3.0.0",
+    "react-native-udp": "^4.0.2",
     "buffer": "^4.9.1"
   },
   "devDependencies": {
